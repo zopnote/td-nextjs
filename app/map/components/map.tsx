@@ -106,7 +106,7 @@ export default function Map() {
                 </p>
                 <div className={styles['info-title-space']}></div>
                 <div className={styles["info-checkmark-container"]}>
-                    Keine Anfahrtskosten in Delmenhorst. Außerhalb eine Pauschale von 10 EUR.
+                    Keine Anfahrtskosten in Delmenhorst. Außerhalb 1 EUR pro km.
                 </div>
             </div>
             <div className={styles['info-map-space']}></div>

@@ -31,7 +31,4 @@ THE LICENSOR SHALL NOT BE LIABLE FOR ANY DAMAGES OR LEGAL CLAIMS ARISING FROM US
 
 import Landing from "@/app/landing/page";
 
-
-
-
 export default Landing;

@@ -193,49 +193,6 @@ export default function Prices() {
                     </div>
 
                 </div>
-                <div className="flex flex-col md:flex-row justify-center items-center gap-8 mt-16 px-4">
-                    <div className="w-full md:w-80 bg-white rounded-2xl shadow-lg p-6 flex flex-col items-center text-center border border-gray-200 hover:shadow-xl transition-shadow">
-                        <h2 className="text-2xl font-semibold mb-2">Software Entwicklung</h2>
-                        <p className="text-gray-500 mb-4">Server, Web, Desktop & Mobil</p>
-                        <div className="text-4xl font-bold mb-4">
-                            Ab €119 <span className="text-lg text-gray-500">inkl. MwSt</span>
-                        </div>
-                        <ul className="text-gray-600 mb-6 space-y-2">
-                            <li>CLIs, HTTP-Backends & Server</li>
-                            <li>Cross-platform Apps</li>
-                            <li>Und weiteres...</li>
-                        </ul>
-                        <Link href={"custom-made/"} className="bg-blue-600 hover:bg-blue-700 text-white font-medium py-2 px-4 rounded-xl transition-colors" >
-                            Mehr erfahren
-                        </Link>
-                    </div>
-                    {!isMobile ? <div className="w-full md:w-80 bg-white rounded-2xl shadow-lg p-6 flex flex-col items-center text-center border border-gray-200 hover:shadow-xl transition-shadow" style={{
-                        width: "50%"
-                    }}>
-                        <div
-                            style={{
-                                display: "grid",
-                                gap: "1rem",
-                                gridTemplateColumns:
-                                    "repeat(auto-fill, minmax(220px, max-content))",
-                                justifyContent: "center",
-                                alignItems: "start",
-                                width: "100%",
-                            }}
-                        >
-                            {createServiceList([
-                                "Mobilanwendungen",
-                                "CLI applications",
-                                "Front- & Backend",
-                                "Cross-platform apps",
-                                "Desktop apps",
-                                "Native Anwendungen",
-                                "Webseiten & Webapps",
-                                "Game-Mods"
-                            ])}
-                        </div>
-                    </div> : <></>}
-                </div>
             </div>
             <div style={{ height: "100px" }}></div>
             <Footer></Footer>

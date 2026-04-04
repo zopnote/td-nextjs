@@ -48,17 +48,17 @@ export default function Footer() {
                 ³Ab dem Preis für den beschriebenen Service. Die Beratungs- und Anfahrtskosten entfallen gegebenenfalls.<br/>
 
                 <br/>
-                Urkundschaft des Amtsgerichts Delmenhorst wird nicht ausgehändigt. Gewerbeschein auf Anfrage. Unternehmen ist nicht nach §19 UStG steuerbefreit, USt. wird erhoben.
+                Gewerbeschein auf Anfrage. Unternehmen ist nicht nach §19 UStG steuerbefreit, USt. wird erhoben.
                 Haftungsumfang des Service wird als Teil des Vertragsschlusses bei Inanspruchnahme mit den Parteien abgestimmt.
                 <br/><br/><br/>
                 <div className={styles.bottomRow}>
                     <a className={styles.columnLink}>
                         <strong>Impressum</strong><br/>
-                        Technische Dienstleistungen Lenny Siebert <br/>
-                        USt.-ID. (ausstehend) <br/>
+                        Technische Dienstleistungen Lenny Siebert<br/>
+                        USt.-ID. DE459214204<br/>
                         lennysiebert@tdls-del.de<br/>
-                        Wilhelm-Busch Straße 2 <br/>
-                        27753 Delmenhorst <br/>
+                        Wilhelm-Busch Straße 2<br/>
+                        27753 Delmenhorst<br/>
                         Einzelunternehmen (Delmenhorst, 03401000)<br/>
                     </a>
                     <div className={styles.columnLink}>
